@@ -1,0 +1,1 @@
+INSERT INTO Confect.user (username, email, password, create_time) VALUES ('admin', 'example@ya.ru', '123', '2017-06-10 17:36:49');
