@@ -8,3 +8,19 @@ Also it's bad idea to use jquery in project, because if you want to send your re
 3000, and Vue think that it's another domain you must install vue-resourse and tune your backend CORS (i'll rewrite this in my project soon))
 
 But if you want to see how you can fast create a project with backend and MySql - see this.
+
+## Build Setup
+
+
+``` bash
+
+# Download all folders 
+# in folders backend and front install dependencies
+npm i
+# To run front use command 
+npm run dev
+# to start backend i recomend install nodemon globaly
+npm i nodemon -G
+# start back
+nodemon
+# create db with name Confect and from terminal insert tables from folder 'db'
